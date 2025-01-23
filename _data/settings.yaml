@@ -22,6 +22,7 @@ metadata:
   site_icon_svg: /assets/uploads/favicon.svg
   site_icon_png: ''
   site_ga4_id: ''
+  site_social_title: Bluesky
   seo:
     site_title: Halide - Jamstack portfolio theme
     site_description: >-
@@ -59,6 +60,4 @@ images:
   jpeg:
     enabled: true
     quality: 75
-i18n:
-  site_language: en
-  site_social_title: Bluesky
+  
