@@ -171,14 +171,21 @@ a[href]:visited {
 	        text-decoration: var(--link-underline) 0.05rem;
 }
 
+a[href]:hover {
+	text-decoration: underline;
+}
+
 a[href].link-nostyle {
 	color: currentColor;
 	text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-size: calc(var(--font-size-base) * var(--font-scale) / 100);
 	font-weight: var(--font-weight);
+}
+
+.home-header h1 {
+	font-size: calc(var(--font-size-base) * var(--font-scale) / 100);
 }
 
 p {
@@ -267,12 +274,15 @@ img {
 		grid-column: span 2/5;
 	}
 
-	.grid--header,
 	.grid--intro,
 	.grid--project,
 	.grid--description,
 	.grid--footer {
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.grid--header {
+		grid-template-columns: repeat(5, 1fr);
 	}
 
 	.grid--footer {
@@ -286,7 +296,7 @@ img {
 	.grid__item--end {
 		display: flex;
 		justify-content: flex-end;
-		grid-column: 4;
+		grid-column: 5;
 	}
 
 	[data-orientation] {
@@ -350,6 +360,10 @@ img {
 
 .pb--4 {
 	padding-bottom: calc(var(--space) * 4 );
+}
+
+.pr--4 {
+	padding-right: calc(var(--space) * 4 );
 }
 
 .pb--6 {

@@ -1,14 +1,14 @@
-<header class="p--2">
+<header class="home-header p--2">
 
 	<div class="grid grid--header">
 
 		<a href="{{ '/' | url }}" class="grid__item link-nostyle">
-      {# SEO: home page header title should be inside a h1 tag #}
-      {% if page.url == "/" %}
-				<h1>{{ settings.metadata.site_title }}</h1>
-      {% else %}
-        <span>{{ settings.metadata.site_title }}</span>
-      {% endif %}
+			{# SEO: home page header title should be inside a h1 tag #}
+			{% if page.url == "/" %}
+						<h1>{{ settings.metadata.site_title }}</h1>
+			{% else %}
+				<span>{{ settings.metadata.site_title }}</span>
+			{% endif %}
 		</a>
 
 		{% if settings.metadata.site_subtitle_1 %}
@@ -18,6 +18,8 @@
 		{% if settings.metadata.site_subtitle_2 %}
 			<span class="grid__item">{{ settings.metadata.site_subtitle_2 }}</span>
 		{% endif %}
+
+		<a href="/blog" class="grid__item">Blog</a>
 
 		{% if settings.theme.theme_features.enable_dark_mode %}
 

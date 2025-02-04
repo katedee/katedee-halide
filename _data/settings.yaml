@@ -31,18 +31,18 @@ metadata:
     no_index: false
 theme:
   theme_layout:
-    space_scale: 100
+    space_scale: 80
   theme_colors:
     background: '#ffffff'
     text: '#101010'
     link: '#542BFF'
     background_dark: '#101010'
     text_dark: '#E1E1E1'
-    link_dark: '#FFFFFF'
+    link_dark: '#FF2079'
   theme_typography:
     font: Overpass Mono
     font_weight: 400
-    font_scale: 100
+    font_scale: 120
     line_height_scale: 100
   theme_features:
     enable_dark_mode: true
