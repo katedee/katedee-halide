@@ -1,7 +1,6 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
-const htmlmin = require("html-minifier");
 const yaml = require("js-yaml");
 const slugify = require("slugify");
 const eleventyHelmetPlugin = require("eleventy-plugin-helmet");
@@ -164,19 +163,6 @@ module.exports = function(eleventyConfig) {
       return code;
     }
     return minified.code;
-  });
-
-  // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-    if (outputPath.indexOf(".html") > -1) {
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
-      });
-      return minified;
-    }
-    return content;
   });
 
   // Create a hash from date (e.g. for permalinks)
