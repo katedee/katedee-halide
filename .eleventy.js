@@ -121,13 +121,6 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => b.data.position - a.data.position);
   });
 
-  //Add excerpt function for the blog
-  eleventyConfig.setFrontMatterParsingOptions({
-		excerpt: true,
-		// Optional, default is "---"
-		excerpt_separator: "<!-- excerpt -->",
-	});
-
   // A filter to limit output of collection items
   eleventyConfig.addFilter("limit", function (arr, limit) {
     return arr.slice(0, limit);
@@ -213,6 +206,13 @@ module.exports = function(eleventyConfig) {
   // Disable 11ty dev server live reload when using CMS locally
   eleventyConfig.setServerOptions({
     liveReload: false
+  });
+
+  //Add excerpt function for the blog
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true,
+    // Optional, default is "---"
+    excerpt_separator: "<!-- excerpt -->"
   });
 
   return {
