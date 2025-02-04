@@ -6,7 +6,7 @@
 # Output directory and build command
 [build]
   publish = "_site"
-  command = "npm run build"
+  command = "eleventy"
 
 # Cache generated content between builds (e.g. images)
 [[plugins]]

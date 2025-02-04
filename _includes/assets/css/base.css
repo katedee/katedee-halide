@@ -85,15 +85,17 @@ body {
 /* CSS Columns */
 
 .columns {
-	display: grid;
-	grid-template-rows: repeat(7, 1fr);
-	grid-auto-flow: column;
+	text-align: left;
+  -moz-column-count: 1;
+       column-count: 1;
+	-moz-column-width: auto;
+	     column-width: auto;
 }
 
-/* .columns__item {
+.columns__item {
   -moz-column-break-inside: avoid;
        break-inside: avoid;
-} */
+}
 
 /* @supports (grid-template-rows: masonry) {
   .columns {
@@ -245,7 +247,8 @@ img {
 	.columns {
 		-moz-column-gap: calc(var(--space) * 1.25);
 		     column-gap: calc(var(--space) * 1.25);
-			 grid-template-rows: repeat(4, 1fr);
+		-moz-column-count: 2;
+       column-count: 2;
 	}
 
 	.grid--project {
@@ -315,7 +318,8 @@ img {
 	}
 
 	.columns {
-		grid-template-rows: repeat(2, 1fr);
+		-moz-column-count: 4;
+       column-count: 4;
 	}
 
 	[data-orientation] {
