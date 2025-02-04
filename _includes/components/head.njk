@@ -1,18 +1,20 @@
 <head>
   <meta charset="utf-8">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <meta name="author" content="https://github.com/danurbanowicz">
+  <meta name="author" content="Kate Drwecka">
   <meta name="generator" content="{{ eleventy.generator }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="{{ settings.theme.theme_colors.background }}">
 
   {# Set the SVG favicon for browsers that support it #}
-  <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml">
+  {# <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml"> #}
 
   {# Generate a 48px favicon.png file in the site root (from our uploaded SVG or PNG) #}
-  {% set faviconImg = settings.metadata.site_icon_svg or settings.metadata.site_icon_png %}
-  {% favicon faviconImg %}
+  {# {% set faviconImg = settings.metadata.site_icon_svg or settings.metadata.site_icon_png %}
+  {% favicon faviconImg %} #}
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👻</text></svg>"/>
 
   {# Set specific SEO data for home page, otherwise use SEO data in page frontmatter #}
   {% if page.url == "/" %}
