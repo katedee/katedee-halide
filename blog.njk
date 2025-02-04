@@ -1,0 +1,25 @@
+---
+title: Blog
+layout: layouts/page.njk
+permalink: /blog.html
+section: blog
+---
+
+<div class="grid grid--intro">
+    {%- for blog in collections.blog -%}   
+        <article class="grid__item--span-4">
+            <section>
+                    <div>
+                        
+
+                    <a href="{{ blog.url }}"><h2>{{ blog.data.title }}</h2></a>
+                    <div>{{ blog.page.excerpt }}</div>
+                    <a href="{{ blog.url }}">read the rest →</a>
+
+
+                    </div>
+            </section>
+        
+        </article>
+    {%- endfor -%}
+</div>
