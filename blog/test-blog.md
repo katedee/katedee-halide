@@ -39,6 +39,7 @@ I'm working on getting my old newsletter archives ported to over here, but it's 
 - 📚 The Cartoonist Co-Op's 2025 [NSFW Comic Bundle](https://itch.io/b/2848/the-cartoonist-co-op-nsfw-comics-bundle-2025) is here! Get a bunch of delicious erotic comics for $20USD/$30CAD (god the exchange rate 😭)
 - 📚 If you're a fan of solo TTRPGs, there's [Solo But Not Alone 5](https://itch.io/b/2865/solo-but-not-alone-5) over on itch too.
 - 🎥 If you're a little chess nerd like me, [this video talking about good use of the london system](https://www.youtube.com/watch?v=bcWy10RKTNw) as a beginner is great.
+- 🎥 Because I've been losing my mind formatting time and time zones through my various projects, [enjoy this old goodie about dealing with time zones programmatically](https://www.youtube.com/watch?v=-5wpm-gesOY) (you do not need coding experience to understand).
 
 [^1]: I realise the irony of posting to a substack post for this, but it was the most comprehensive round up and [Jude Doyle has moved to ghost.](https://jude-doyle.ghost.io/)
 
