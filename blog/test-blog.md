@@ -21,6 +21,14 @@ I've been waitlist for the Montreal Comic Arts Festival, unfortunately, but I'll
 
 Death of Baba Yaga: we're penciling! We're desperately trying to play catch up as a million web projects and life set me back a bit, but I have faith.
 
+![page 3](/assets/blog/feb/pg-03.jpg) 
+![page 4](/assets/blog/feb/pg-04.jpg)
+![page 5](/assets/blog/feb/pg-05.jpg)
+![page 6](/assets/blog/feb/pg-06.jpg)
+![page 7](/assets/blog/feb/pg-07.jpg)
+![page 9](/assets/blog/feb/pg-09.jpg)
+![page 10](/assets/blog/feb/pg-10.jpg)
+
 ## Twitch Streaming
 ![working on comics....](/assets/blog/feb/twitch.png)
 [Still happening](https://www.twitch.tv/thisiskatedee)! Both the Monday and Wednesday are art streams just because of time crunch. I've been experimenting with push the streams back to 6:30PM EST and it seems to be a better time for folks.
