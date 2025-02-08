@@ -6,6 +6,7 @@ section: blog
 ---
 
 <div class="grid grid--intro">
+    <p class="grid__item--span-4">There's an <a href="/feed.xml">RSS feed if you'd like</a>.</p>
     {%- for blog in collections.blog -%}   
         <article class="grid__item--span-4">
             <a href="{{ blog.url }}"><h2 style="margin-top:0;">{{ blog.data.title }}</h2></a>
