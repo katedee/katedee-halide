@@ -1,6 +1,6 @@
 ---
 title:  "I am Swamped"
-dateBlog: 'Feb. 9th, 2025'
+date: 2025-02-09
 ---
 Hi all!
 
@@ -29,6 +29,9 @@ Death of Baba Yaga: we're penciling! We're desperately trying to play catch up a
 If you’ve got an account, I’d appreciate the subscribe. If ever you can tune in (even just to mute me and leave me on in the background), it does help get me to affiliate status and earn some pennies doing what I do. Any help is appreciated, but I love sharing the process either way 🙂
 
 I'm going to keep adding this bit, because somehow it gets new folks each time.
+
+## Some extra blog bits...
+I'm working on getting my old newsletter archives ported to over here, but it's going to take some time, as it's a bit of manual work porting images over. And my other projects are still taking priority!
 
 ## In the meantime, some cool things...
 ![cover for Ethel Cain's Perverts](/assets/blog/feb/perverts.png)

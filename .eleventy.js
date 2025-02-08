@@ -11,21 +11,26 @@ const markdownItFootnote = require("markdown-it-footnote");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {  
-   let options = {
-     html: true, // Enable HTML tags in source
-     breaks: true,  // Convert '\n' in paragraphs into <br>
-     linkify: true // Autoconvert URL-like text to links
-   };
+  let options = {
+    html: true, // Enable HTML tags in source
+    breaks: true,  // Convert '\n' in paragraphs into <br>
+    linkify: true // Autoconvert URL-like text to links
+  };
    
-   // configure the library with options
-   let markdownLib =  MarkdownIt(options).use(markdownItFootnote);
-   // set the library to process markdown files
-   eleventyConfig.setLibrary("md", markdownLib);
+  // configure the library with options
+  let markdownLib =  MarkdownIt(options).use(markdownItFootnote);
+  // set the library to process markdown files
+  eleventyConfig.setLibrary("md", markdownLib);
 
-   eleventyConfig.addFilter("renderUsingMarkdown", function(rawString) {
+  eleventyConfig.addFilter("renderUsingMarkdown", function(rawString) {
     return mdRender.render(rawString);
   });
 
+  eleventyConfig.addFilter("blogDate", function(utcString) {
+    //Thurs, 09 Feb 2025 00:00:00 GMT
+    const dateParts = utcString.split(' ');
+    return `${dateParts[2]}. ${dateParts[1]} ${dateParts[3]}`;
+  });
   // https://www.11ty.dev/docs/plugins/image/
   // Generate PNG icon files and a link tag from a source SVG or PNG file
   eleventyConfig.addShortcode("favicon", async function(src) {
