@@ -8,18 +8,9 @@ section: blog
 <div class="grid grid--intro">
     {%- for blog in collections.blog -%}   
         <article class="grid__item--span-4">
-            <section>
-                    <div>
-                        
-
-                    <a href="{{ blog.url }}"><h2>{{ blog.data.title }}</h2></a>
-                    <div>{{ blog.page.excerpt }}</div>
-                    <a href="{{ blog.url }}">read the rest →</a>
-
-
-                    </div>
-            </section>
-        
+            <a href="{{ blog.url }}"><h2 style="margin-top:0;">{{ blog.data.title }}</h2></a>
+            <div>{{ blog.page.excerpt | renderUsingMarkdown | safe }}</div>
+            <a href="{{ blog.url }}">read the rest →</a>
         </article>
     {%- endfor -%}
 </div>

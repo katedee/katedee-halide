@@ -20,10 +20,17 @@
   box-sizing: border-box;
 }
 
-* {
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+.columns figure,
+header * {
 	margin: 0;
 	padding: 0;
 }
+
+
 
 /* Body */
 
@@ -228,6 +235,11 @@ img {
 	padding: 0.5rem 1rem;
 	justify-content: center;
 	align-content: center;
+}
+
+/* Blog */
+.footnotes-sep {
+	margin: 5rem 0;
 }
 
 /* Media Queries */

@@ -49,9 +49,6 @@ theme:
     show_project_year: true
     show_project_grid_titles: true
 images:
-  avif:
-    enabled: true
-    quality: 75
   webp:
     enabled: true
     quality: 75

@@ -34,5 +34,9 @@
     "netlify-plugin-11ty": "^1.4.0",
     "netlify-plugin-csp-generator": "^1.6.1",
     "uglify-js": "^3.19.2"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "markdown-it-footnote": "^4.0.0"
   }
 }

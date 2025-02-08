@@ -1,16 +1,47 @@
 ---
-title:  "Testing the blog!!"
-tags: blog
-layout: "layouts/blog_post.njk"
+title:  "I am Swamped"
+dateBlog: 'Feb. 9th, 2025'
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Hi all!
+
+I recently switched my newsletter over to beehiiv. Substack had another huge falling out, which enlightened me to its history of problems. Unfortunately, any big newsletter platform is subject to having it's own host of problem spaces (Ghost has Quillette, BeeHiiv is big with the crypto bros, etc, etc), but at least they are not [directly paying TERFs to come write for them](https://doyles.substack.com/p/in-queers-we-trust-all-others-pay) [^1].
 <!-- excerpt -->
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+In my research I've also learned that nearly any platform is extremely strict about any nudity, even "artistic nudity" [^2] [^3]. To be safe, I will be censoring any art shared in newsletter as necessary, but hoping to direct more folks over to the blog on [my newly designed site](katedee.com). There, we can be as spicy as we want 🌶️. I imagine it won’t be necessary too often, but you never know!
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## I'm swamped
+I have taken on...too many projects. 
+- $dayjob has picked up the pace and keeping me quite busy.
+- Working away on Death of Baba Yaga chapter 2.
+- Finished coding some spruced up version of webcomic templates ([Rarebit Redux](https://github.com/katedee/rarebit-redux), and [Eleventy Webcomic](https://github.com/katedee/eleventy-webcomic)).
+- Busy writing extensive instructions for them, which will be hosted on a little website.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## Comics updates & pencils
+I've been waitlist for the Montreal Comic Arts Festival, unfortunately, but I'll know by the end of February wether I manage to get off the waitlist 🤞. I'll also find out my Toronto Comic Arts Festival status then. I'd love to eventually expand my list of shows in this year.
+
+Death of Baba Yaga: we're penciling! We're desperately trying to play catch up as a million web projects and life set me back a bit, but I have faith.
+
+## Twitch Streaming
+![working on comics....](/assets/blog/feb/twitch.png)
+[Still happening](https://www.twitch.tv/thisiskatedee)! Both the Monday and Wednesday are art streams just because of time crunch. I've been experimenting with push the streams back to 6:30PM EST and it seems to be a better time for folks.
+
+**Monday & Wednesdays 6:30PM EST**
+If you’ve got an account, I’d appreciate the subscribe. If ever you can tune in (even just to mute me and leave me on in the background), it does help get me to affiliate status and earn some pennies doing what I do. Any help is appreciated, but I love sharing the process either way 🙂
+
+I'm going to keep adding this bit, because somehow it gets new folks each time.
+
+## In the meantime, some cool things...
+![cover for Ethel Cain's Perverts](/assets/blog/feb/perverts.png)
+- 🎧 I can't stop listening to [Ethel Cain's _Perverts_ EP](https://ethelcain.ffm.to/perverts). Perfect ambience drone music. It's like what if a good Silent Hill were an album. I wasn't huge on Cain's previous album, but this has been on near non-stop rotation for me.
+- 📚 The Cartoonist Co-Op's 2025 [NSFW Comic Bundle](https://itch.io/b/2848/the-cartoonist-co-op-nsfw-comics-bundle-2025) is here! Get a bunch of delicious erotic comics for $20USD/$30CAD (god the exchange rate 😭)
+- 📚 If you're a fan of solo TTRPGs, there's [Solo But Not Alone 5](https://itch.io/b/2865/solo-but-not-alone-5) over on itch too.
+- 🎥 If you're a little chess nerd like me, [this video talking about good use of the london system](https://www.youtube.com/watch?v=bcWy10RKTNw) as a beginner is great.
+
+[^1]: I realise the irony of posting to a substack post for this, but it was the most comprehensive round up and [Jude Doyle has moved to ghost.](https://jude-doyle.ghost.io/)
+
+[^2]: I hate this term because:  
+**a.** what gets defined as porn and what gets defined as artistic is deeply subjective, and often used to [target anything queer](https://www.eff.org/deeplinks/2021/08/how-lgbtq-content-censored-under-guise-sexually-explicit).  
+**b.** it implies that porn is incapable of being artistic.
+
+[^3]: Also hi Tessa, I stole your footnotes.
+

@@ -1,4 +1,3 @@
-const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const yaml = require("js-yaml");
@@ -8,10 +7,22 @@ const EleventyFetch = require("@11ty/eleventy-fetch");
 const Image = require("@11ty/eleventy-img");
 const MarkdownIt = require("markdown-it");
 const mdRender = new MarkdownIt();
+const markdownItFootnote = require("markdown-it-footnote");
+const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 
-module.exports = function(eleventyConfig) {
+module.exports = function(eleventyConfig) {  
+   let options = {
+     html: true, // Enable HTML tags in source
+     breaks: true,  // Convert '\n' in paragraphs into <br>
+     linkify: true // Autoconvert URL-like text to links
+   };
+   
+   // configure the library with options
+   let markdownLib =  MarkdownIt(options).use(markdownItFootnote);
+   // set the library to process markdown files
+   eleventyConfig.setLibrary("md", markdownLib);
 
-  eleventyConfig.addFilter("renderUsingMarkdown", function(rawString) {
+   eleventyConfig.addFilter("renderUsingMarkdown", function(rawString) {
     return mdRender.render(rawString);
   });
 
@@ -52,8 +63,7 @@ module.exports = function(eleventyConfig) {
       outputWidths = ["1080","1800","2400"],
       outputFormats = ["jpeg"],
       outputQualityJpeg = 75,
-      outputQualityWebp = 75,
-      outputQualityAvif = 75
+      outputQualityWebp = 75
     } = params;
 
     // Tina CMS prefixes uploaded img src with a forward slash (?)
@@ -64,7 +74,6 @@ module.exports = function(eleventyConfig) {
       widths: outputWidths,
       sharpJpegOptions: { quality: outputQualityJpeg },
       sharpWebpOptions: { quality: outputQualityWebp },
-      sharpAvifOptions: { quality: outputQualityAvif },
       formats: outputFormats,
       urlPath: "/assets/images/",
       outputDir: "./_site/assets/images/",
@@ -139,11 +148,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("formatGoogleFontName", name => {
     return name.replace(/\s/g, '+');
   });
-  
-  // Date formatting (human readable)
-  eleventyConfig.addFilter("dateFullYear", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("yyyy");
-  });
 
   // base64 encode a string
   eleventyConfig.addFilter("encodeURL", function(url) {
@@ -163,11 +167,6 @@ module.exports = function(eleventyConfig) {
       return code;
     }
     return minified.code;
-  });
-
-  // Create a hash from date (e.g. for permalinks)
-  eleventyConfig.addFilter("hashFromDate", dateObj => {
-    return new Number(DateTime.fromJSDate(dateObj)).toString(36);
   });
 
   // Universal slug filter makes-strict-urls-like-this
@@ -200,13 +199,28 @@ module.exports = function(eleventyConfig) {
   
   });
 
+  eleventyConfig.addPlugin(feedPlugin, {
+		type: "rss", // or "rss", "json"
+		outputPath: "/feed.xml",
+		collection: {
+			name: "blog", // iterate over `collections.posts`
+			limit: 10,     // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "Kate Drwecka's Blog",
+			subtitle: "Keeping you up-to-date on the projects I'm working on, the goings-on of my life, and some recommendations of things to check out.",
+			base: "https://katedee.com/",
+			author: {
+				name: "Kate Drwecka",
+				email: "katedrwecka@gmail.com", // Optional
+			}
+		}
+	});
+
   // Copy folders or static assets e.g. images to site output
   eleventyConfig.addPassthroughCopy({"assets/icons/favicon.svg" : "/favicon.svg"});
-
-  // Disable 11ty dev server live reload when using CMS locally
-  eleventyConfig.setServerOptions({
-    liveReload: false
-  });
+  eleventyConfig.addPassthroughCopy("assets/blog");
 
   //Add excerpt function for the blog
   eleventyConfig.setFrontMatterParsingOptions({
