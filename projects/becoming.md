@@ -5,6 +5,7 @@ description: >
   31 page horror comic about a woman haunted by an apparition in her mirror.
 year: 2019
 position: 5
+tags: comics
 images:
   - src: /assets/portfolio/becoming/becoming_cover_front.png
   - src: /assets/portfolio/becoming/becoming_1_WEB.png

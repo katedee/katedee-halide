@@ -14,11 +14,9 @@ section: page
   </header>
 
 
-<div class="grid grid--intro">
-  <div class="grid__item--span-4 mw--readable">
-    {{ content | safe }}
-  </div>
-</div>
+
+  {{ content | safe }}
+
 
 {# Gets appended to <head> during build #}
 {# {% include "components/opengraph.njk" %} #}

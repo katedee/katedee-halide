@@ -5,6 +5,7 @@ description: >
   Various fanart pieces for the video game Baldur's Gate 3.
 year: 2024
 position: 6
+tags: illustration
 images:
   - src: /assets/portfolio/bg3/gale.jpg
   - src: /assets/portfolio/bg3/gale-draft.jpg

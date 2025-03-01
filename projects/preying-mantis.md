@@ -4,6 +4,7 @@ title: Preying Mantis
 description: |
   An erotic thriller comic about a female serial killer murdering tech dudes and finding love along the way.
 year: 2021
+tags: comics
 position: 1
 images:
   - src: /assets/portfolio/preying-mantis/cover-digital.jpg

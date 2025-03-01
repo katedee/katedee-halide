@@ -5,6 +5,7 @@ description: |
   A gothic western retelling of Vasilisa the Beautiful.
 year: 2022
 position: 0
+tags: comics
 images:
   - src: /assets/portfolio/doby/Cover.jpeg
     caption: Cover for Chapter 1

@@ -4,6 +4,7 @@ title: The All-Girl Supernatural Detective Agency
 description: >
   A standalone series of comics about and all-girl scooby gang, solving mysteries.
 year: 2018
+tags: comics
 position: 5
 images:
   - src: /assets/portfolio/agsda/0.jpg

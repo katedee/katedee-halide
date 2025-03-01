@@ -4,6 +4,7 @@ title: Nosferatu
 description: |
   Personal work, movie poster for Nosferatu.
 year: 2024
+tags: illustration
 position: 2
 images:
   - src: /assets/portfolio/nosferatu.jpg

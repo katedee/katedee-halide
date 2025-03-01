@@ -1,7 +1,6 @@
 ---
 layout: layouts/base.njk
-section: home
-permalink: "/index.html"
+permalink: "/illustration.html"
 ---
 <article>
 
@@ -18,7 +17,7 @@ permalink: "/index.html"
 
   </header>
 
-  {% set projectList = collections.projects | limit(settings.theme.theme_features.item_output_limit or 48) %}
+  {% set projectList = collections.illustration %}
   {% include "components/projectList.njk" %}
 
 </article>
