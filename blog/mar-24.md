@@ -5,6 +5,7 @@ date: 2025-03-09
 Hi pals!
 
 Not a lot of new things to type about for me this month. I have been trying to be heads down on all my projects. Thankfully I have the next two weeks off from the $dayjob, which really just means I'll spend 6-10hrs each day trying to catch up on comics instead 😭 (so forgive me if this installment is a bit disjointed).
+<!-- excerpt -->
 
 ## In for MCAF, waitlist for TCAF
 Pencilling has continued, although I am a week behind. When I initially was drafting this section I wrote it wasn't a huge issue, since it was looking like I wasn't getting off the waitlist for the [Montreal Comic Arts Festival](), but it turns out I'm in!! I'm waitlisted for TCAF, and will hear back at the end of March/early April--I remain hopeful and since I have to reprint things for MCAF, I'll be ready regardless.
@@ -15,14 +16,14 @@ I'll admit being initially waitlisted initially was kind of tough, because it re
 It's really just more pencils! This chapter is very foliage heavy, and I wanted to try a different approach to it.
 
 Chapter 1 I really turned to Milton Caniff for foliage inspiration
-![](/assets/blog/march/doby.png) 
-![](/assets/blog/march/caniff.png) 
-![](/assets/blog/march/caniff2.png) 
+![''](/assets/blog/march/doby.png) 
+![''](/assets/blog/march/caniff.png) 
+![''](/assets/blog/march/caniff2.png) 
 While I think Caniff's writing is mostly boring american propaganda, the art is phenomenal, and the black spots and shadow work is still a huge goal of mine (I mean just LOOK at those shadows in the last panel).
 
 Chapter 2, I'm really trying to pull from Ivan Bilibin, which is a big aesthetic inspiration for this project.
-![](/assets/blog/march/bilibin.png)
-![](/assets/blog/march/bilibin2.png)
+![''](/assets/blog/march/bilibin.png)
+![''](/assets/blog/march/bilibin2.png)
 
 ### and how it shows in my pages... [^2]
 ![page 11](/assets/blog/march/pg-11.jpg) 
