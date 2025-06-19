@@ -3,6 +3,7 @@ draft: false
 title: 'Death of Baba Yaga'
 description: |
   A gothic western retelling of Vasilisa the Beautiful.
+  Read it online [here](https://www.babayagacomic.com/).
 year: 2022
 position: 0
 tags: comics
@@ -18,4 +19,4 @@ images:
   - src: /assets/portfolio/doby/Pg_9.jpeg
 date: 2024-05-01
 ---
-I'm currently working on Chapter 2, and will be serializing it online soon.
+Currently working on chapter 3, and started serializing online!
