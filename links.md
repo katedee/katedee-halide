@@ -7,7 +7,8 @@ eleventyExcludeFromCollections: true
 
 <div class="grid grid--intro">
   <div class="grid__item--span-4 mw--readable">
-- [The Death of Baba Yaga](https://www.babayagacomic.com/) - my ongoing webcomic that is a gothic western reimagining of Vasilisa the Beautiful.
+
+- [The Death of Baba Yaga](https://www.babayagacomic.com) - my ongoing webcomic that is a gothic western reimagining of Vasilisa the Beautiful.
 - [Twitch](https://www.twitch.tv/thisiskatedee) - I stream here Mondays and Wednesdays at 6:30PM EST, working away on my comics ☺️.
 - [Bluesky](https://bsky.app/profile/thisiskatedee.bsky.social)
 - [Tumblr](https://thisiskatedee.tumblr.com/)
