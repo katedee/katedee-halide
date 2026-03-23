@@ -36,7 +36,7 @@
     "uglify-js": "^3.19.2"
   },
   "dependencies": {
-    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
     "markdown-it-footnote": "^4.0.0"
   }
 }
