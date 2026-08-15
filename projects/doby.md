@@ -5,7 +5,7 @@ description: |
   A gothic western retelling of Vasilisa the Beautiful.
   Read it online [here](https://www.babayagacomic.com/).
 year: 2022
-position: 0
+position: 95
 tags: comics
 images:
   - src: /assets/portfolio/doby/Cover.jpeg

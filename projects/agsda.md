@@ -5,7 +5,7 @@ description: >
   A standalone series of comics about and all-girl scooby gang, solving mysteries.
 year: 2018
 tags: comics
-position: 5
+position: 100
 images:
   - src: /assets/portfolio/agsda/0.jpg
   - src: /assets/portfolio/agsda/1.png
