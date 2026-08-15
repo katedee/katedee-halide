@@ -11,5 +11,6 @@ position: 4
 tags: illustration
 images:
   - src: /assets/portfolio/lingua.jpg
+  - src: /assets/portfolio/lingualine.jpg
 date: 2023-11-10T12:28:51.623Z
 ---
