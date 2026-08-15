@@ -7,6 +7,6 @@ year: 2019
 position: 4
 tags: illustration
 images:
-  - src: /assets/portfolio/goodnight-hunter.jpg
+  - src: /assets/portfolio/bloodborne.jpg
 date: 2023-11-10T12:28:51.623Z
 ---
