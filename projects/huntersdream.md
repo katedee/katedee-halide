@@ -1,10 +1,10 @@
 ---
 draft: false
-title: Bloodborne
+title: Goodnight Hunter
 description: >
   Personal work, risograph prints for the game Bloodborne.
 year: 2019
-position: 4
+position: 3
 tags: illustration
 images:
   - src: /assets/portfolio/goodnight-hunter.jpg
